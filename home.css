@@ -31,10 +31,9 @@ td {
 .flex-container {
     display: flex;
     justify-content: center;
-    flex-direction: row;
     background-color: #0e2843
     
-  }
+}
   
 .flex-container > div {
     background-color: #f1f1f1;
@@ -59,7 +58,7 @@ td {
 
 input[type=text] {
     box-sizing: border-box;
-    border: 2px solid black;
+    border: 2px solid #000000;
     border-radius: 4px;
     font-size: 12px;
     background-color: white;
@@ -68,10 +67,10 @@ input[type=text] {
 
 select {
     box-sizing: border-box;
-    border: 2px solid black;
+    border: 2px solid #000000;
     border-radius: 4px;
     font-size: 12px;
-    background-color: white;
+    background-color: #f1f1f1;
     padding: 10px 15px 10px 20px;
 }
 
@@ -120,7 +119,7 @@ img {
         justify-content: center;
         flex-direction: column;
         border-bottom: 1px solid #808080;
-        max-width:   100%;
+        max-width: 100%;
         padding : 15px; 
 
     }
@@ -132,7 +131,7 @@ img {
         justify-content: center;
         flex-direction: column;
         border-bottom: 1px solid #808080;
-        max-width:   100%;
+        max-width: 100%;
         padding : 15px; 
 
     }
