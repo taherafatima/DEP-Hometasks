@@ -37,7 +37,7 @@ td {
   
 .flex-container > div {
     background-color: #f1f1f1;
-    width : 10%;
+    width : 15%;
     margin: 20px; 
     text-align: center;
     line-height: 20px;
@@ -51,9 +51,9 @@ td {
     flex-direction: row;
     border-bottom: 1px solid #808080;
     padding-top: 5px;
-    padding-left: 10px;
+    padding-left: 30px;
     padding-right: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 input[type=text] {
@@ -75,7 +75,7 @@ select {
 }
 
 .display-category {
-    padding-left: 150px;
+    padding-left: 100px;
     padding-top: 20px;
 }
 
