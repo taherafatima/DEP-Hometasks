@@ -1,15 +1,15 @@
-function rentalCarCost(d) {
+function rentalCarCost(days) {
   // Your solution here
   var cost = 40;
   var total;
-  if(d>=7){
-    total=(d*cost)-50;
+  if(days>=7){
+    total=(days*cost)-50;
   }
-  else if(d>=3){
-    total=(d*cost)-20;
+  else if(days>=3){
+    total=(days*cost)-20;
   }
   else {
-    total = cost*d;
+    total = cost*days;
   }
   return total;
 }
