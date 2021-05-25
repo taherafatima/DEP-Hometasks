@@ -1,0 +1,122 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0%;
+  background-color: #dc143c;
+  color: #fffaf0;
+  width: 100%;
+  height: 30px;
+}
+
+.search-class {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px;
+  border-bottom: 1px solid #000000;
+}
+
+.search-image {
+  width: 150px;
+  height: 100px;
+}
+
+.search-text {
+  padding-left: 10px;
+  color: #dc143c;
+  font-size: 30px;
+}
+
+.search-content {
+  margin: 30px;
+  padding-right: 20px;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  font-size: 20px;
+  background-color: #fffaf0;
+  padding: 10px 15px 10px 80px;
+}
+
+.search-button {
+  background-color: #dc143c;
+  color: #fffaf0;
+  display: block;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 15px 50px;
+}
+
+.video-details {
+  margin: 30px;
+}
+
+.load-result {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.thumbnail {
+  width: 90%;
+  height: 40%;
+}
+
+.video-preview {
+  width: 100%;
+  height: 50%;
+}
+
+.watch-button {
+  background-color: #dc143c;
+  color: #fffaf0;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 10px;
+  margin: 3px 4px;
+  cursor: pointer;
+}
+
+.inline {
+  display: inline;
+}
+
+.page-button {
+  background-color: #fffaf0;
+  color: #000000;
+  padding: 8px;
+  text-align: center;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 8px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .search-class {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .load-result {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image {
+    padding-left: 30px;
+  }
+}
