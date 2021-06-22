@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Blog</title> 
+</head>
+<body>
+    <header>
+        <section class="flex-container">
+            <section class="news-header">
+                <h1>NEWS BLOG</h1>
+                <p>WORLDWIDE NEWS</p>
+            </section>
+        </section>
+    </header>
+
+    <section class="head1">
+        <section class="display-category">
+            <h2>NEWS HEADLINES</h2>
+        </section>
+           
+        <section class="news-button">
+            <button class="click-button" id="click-button">Read Headlines</button>
+        </section> 
+    </section>
+    
+    <section class="load-news" id="load-news"></section>
+        <template id="news-template" class="news-template">
+            <section class="news-details">
+                <section class="image-class">
+                    <img id="news-image" class="news-image"  alt="news-image">
+                </section>
+                <section class="content-class">
+                    <h2 id="news-title" class="news-title"></h2>
+                    <p id="source-name" class="inline"></p>
+                    <p id="seperator" class="inline"> || </p>
+                    <p id="published-At" class="inline"></p>
+                    <p id="description" class="description"></p>
+                    <section class="button-class">
+                        <a id="news-link" href="" target="_blank">
+                            <button class="continue-button">Continue Reading</button>
+                        </a>
+                    </section>    
+                </section>
+            </section>
+        </template>
+    </section>
+
+    <footer>
+        @NewsFeed 2021
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
