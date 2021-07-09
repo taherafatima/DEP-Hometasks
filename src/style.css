@@ -1,0 +1,278 @@
+body {
+  background-color: #232323;
+  font-family: "Times New Roman", Times, serif;
+  margin:0;
+}
+
+.bg-image {
+  background-image: url("./moviesimage.jpg");
+  width:100%;
+}
+
+.search-content-inner {
+  background-color:rgb(0 0 0 / 75%);
+}
+
+
+.display-netflixtext {
+  color: #f65261;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.display-findmovie {
+  color: #ffffff;
+  font-size: 50px;
+  padding-left: 100px;
+}
+
+.search-bar-class {
+  display: flex;
+  flex-direction: row;
+  padding-left: 80px;
+  padding-bottom: 30px;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  font-size: 20px;
+  color: #ffffff;
+  background-color:#42424266;
+  padding: 20px 200px 10px 300px;
+}
+
+.search-button {
+  background-color: #f65261;
+  color: #ffffff;
+  cursor: pointer;
+  border: 1px;
+  padding: 20px 80px;
+}
+
+.search-by {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+}
+
+.primary-button,
+.secondary-button {
+  display: inline-block;
+}
+
+.display-searchby {
+  padding-left: 180px;
+  padding-right: 20px;
+  color: #ffffff;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.primary-button {
+  background-color: #f65261;
+  color: #ffffff;
+  cursor: pointer;
+  border: 1px;
+  padding: 10px 40px;
+}
+
+.secondary-button {
+  background-color:  #555555;
+  color: #ffffff;
+  cursor: pointer;
+  border: 1px;
+  padding: 10px 40px;
+}
+
+.filmsby-genre,
+.sortby-component {
+  background-color: #424242;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.default-middle {
+  background-color: #424242;
+  height:70px;
+}
+
+.movies-found,
+.display-genresname {
+  margin: 30px;
+  padding-left: 30px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.sortby-movies {
+  display: flex;
+  flex-direction: row;
+  padding-top: 25px;
+  padding-right: 50px;
+}
+
+.display-sortby {
+  color: #ffffff;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-right: 20px;
+}
+
+.nofilms-component {
+  display: flex;
+  background-color: #232323;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  font-size: 60px;
+}
+
+.default-bottom {
+  background-color: #232323;
+  height: 300px;
+}
+
+.footer-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0%;
+  background-color: #424242;
+  color: #f65261;
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+}
+
+.movies-display-template {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+  color: #ffffff;
+}
+
+
+.template {
+  margin: 30px;
+}
+
+.movie-poster-template {
+  width: 300px;
+  height: 400px;
+}
+
+.movie-title-template {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.release-year-template {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 30px;
+  border: 1px solid #ffffff;
+}
+
+.arrange-year {
+  padding-left: 10px;
+}
+
+
+.singlemovie-details {
+  color: #ffffff;
+}
+
+.search-icon {
+  background-image: url("search-icon.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+
+.arrange-icon {
+  padding-right: 50px;
+}
+
+.netflix-text {
+  padding-top: 30px;
+}
+
+
+.netfilxtext-searchicon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* .single-movie-display {
+  padding-bottom: 50px;
+  padding-left: 80px;
+} */
+
+.displaysingle-movie-onclick {
+  display: flex;
+  flex-direction: row;
+}
+
+.singlemovie-poster {
+  width: 300px;
+  height: 400px;
+  padding-left: 80px;
+  padding-bottom: 50px;
+}
+
+.singlemovie-details {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.movie-title-rating {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.movie-rating {
+  font-size: 30px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  color: #008000;
+}
+
+.arrange-rating {
+  padding-left: 70px;
+}
+
+.movie-title {
+  padding-top: 30px;
+}
+
+.movie-releasedate,
+.movie-duration {
+  display: inline-block;
+}
+
+span {
+  color: #f65261;
+  font-size: 40px;
+}
+
+.movie-duration {
+  padding-left: 30px;
+}
+
+.movie-overview {
+  font-size:20px;
+}
